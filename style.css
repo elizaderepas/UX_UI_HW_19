@@ -281,7 +281,10 @@ footer div {
 
 @media screen and (max-width: 640px) {
     h1 {
-        font-size: 80px;
+        font-size: 48px;
+    }
+    .nav-container {
+        display: none;
     }
 
 
@@ -373,22 +376,21 @@ footer div {
 
 
 
-/* A MESS -----------------------------------------------*/
+/* A MESS -----------------------------------------------
 
-/* HOMEPAGE */
+HOMEPAGE
 
-/* .rectangle {
+.rectangle {
     display: flex;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 26px;
-} */
+}
 
-/* GRID -------------------------------------------------------------------- */
+GRID --------------------------------------------------------------------
 
-/* main {
+main {
     display: grid;
     flex-wrap: wrap;
     grid-template-columns: (12, 1fr);
     grid-gap: 1em;
-    
-} */
+     */
