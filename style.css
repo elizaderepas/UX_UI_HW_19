@@ -115,6 +115,27 @@ header {
     align-items: center;
 }
 
+
+.back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    background-color: var(--purple);
+    padding: 10px;
+    color: white;
+    border-radius: 24px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.back-to-top:hover {
+    background-color: white;
+    color: var(--purple)
+}
+
+
 /* HERO ABOUT PAGE -------------------------------------------------------------------- */
 
 .hero {
