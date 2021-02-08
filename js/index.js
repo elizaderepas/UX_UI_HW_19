@@ -18,10 +18,10 @@ $(document).ready(function() {
 
         if(top > height) {
             if(!btt.is(':visible')) {
-                btt.show();
+                btt.fadeIn();
             }
         } else {
-            btt.hide();
+            btt.fadeOut();
         
         }
 
