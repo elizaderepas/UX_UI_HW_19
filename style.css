@@ -12,7 +12,7 @@ body {
 :root {
     --purple: #9008f4;
 }
-/* This gives you a simple class to add in your purple full stops etc. Best attached to something like a <span> */
+
 .purple {
     color: var(--purple);
 }
@@ -386,32 +386,4 @@ footer div {
 
 }
 
-
-
-/* MEDIA QUERIES END -----------------------------------------------*/
-
-
-
-
-
-
-
-
-/* A MESS -----------------------------------------------
-
-HOMEPAGE
-
-.rectangle {
-    display: flex;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    border-radius: 26px;
-}
-
-GRID --------------------------------------------------------------------
-
-main {
-    display: grid;
-    flex-wrap: wrap;
-    grid-template-columns: (12, 1fr);
-    grid-gap: 1em;
-     */
+/* MEDIA QUERy END -----------------------------------------------*/
