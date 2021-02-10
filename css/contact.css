@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;600&family=Lora:wght@700&family=Montserrat:wght@600;700&display=swap');
+
+/* Boilerplate stuff --------------------- */
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0%;
+    font-family: 'Hind Madurai', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --purple: #9008f4;
+}
+
+.purple {
+    color: var(--purple);
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120px;
+    font-weight: 700;
+}
+h2 {
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #9008f4;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+h4 {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+h5 {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+}
+p {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+button {
+    background-color: white;
+    border: none;
+    color: var(--purple);
+    font-size: 22px;
+    font-weight: 400;
+    padding: 8px 0px;
+    border-radius: 24px;
+    transition: 240ms;
+    border: none;
+}
+button:hover {
+    background-color: var(--purple);
+    padding: 8px 24px;
+    color: white;
+}
+
+img {
+    width: 100%
+}
+
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+/* Navigation --------------------- */
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 9% 9% 9%;
+    background: transparent 98%;
+    background-color: white;
+}
+
+.nav-item {
+    padding: 16px;
+    color: black;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.logo {
+    color: black;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 31px;
+   
+}
+
+/* Hero --------------------- */
+
+.hero {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 0 12% 0% 12%;
+    justify-content: center;
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  
+}
+
+.content {
+    grid-column: 1 / 12;
+}
+.contact-me-heading {
+    grid-column: 1 / 12 
+}
+
+.avatar {
+    grid-column: 10 / 12
+}
+
+/* Text --------------------- */
